@@ -16,6 +16,16 @@ class Scraper
     end
   end
   
+  def get_page
+    doc = Nokogiri::HTML(open(""))
+  end
+  
+  def get_course
+  end
+  
+  def make_course
+  end
+  
 end
 
 
